@@ -1,0 +1,289 @@
+.App {
+  margin: auto;
+}
+
+text- {
+  font-family: 'Quicksand';
+}
+
+.dark-mode{
+  background-color: #212121;
+  color: white;
+}
+
+.dancingPanda {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 200px;
+}
+
+.mainTitle {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22%;
+  font-family: 'Quicksand';
+  color: rgb(0, 0, 0);
+}
+
+
+.titleText {
+  color: rgb(0, 172, 202);
+  font-weight: bolder;
+  font-size: 120px;
+  font-stretch: extra-expanded;
+}
+
+
+/* Game Styling */
+
+.game {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  font-family: 'Quicksand';
+}
+
+.gameQuestion {
+  color: rgb(0, 172, 202);
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+.answerChoices {
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.up {
+  margin-top: 20%;
+}
+
+.down {
+  margin-top: 5%
+}
+
+.left {
+  margin-left: -20%;
+  margin-top: -27%;
+}
+
+.right {
+  margin-left: 20%;
+  margin-top: -15%;
+}
+
+.timer {
+  position: absolute;
+  top: 28%;
+  left: 22%;
+  font-family: "Quicksand";
+}
+
+.timerButton {
+  font-family: "Quicksand";
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.score {
+  position: absolute;
+  top: 32%;
+  left: 22%;
+  font-family: "Quicksand";
+}
+
+.instructions {
+  position: absolute;
+  top: 26%;
+  right: 20%;
+  font-family: "Quicksand";
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.color {
+  position: absolute;
+  top: 25%;
+  left: 46%;
+  font-family: "Quicksand";
+  font-weight: bolder;
+  font-size: 100px;
+}
+
+
+.searchBarInput {
+  font-family: 'Quicksand';
+  width: 33%;
+  padding: 10px 40px;
+  border-radius: 20px;
+  outline: none;
+  font-size: 30px;
+}
+
+.searchBarInput:hover {
+  background-color: rgb(245, 238, 238);
+  cursor: text;
+}
+
+.starving {
+  margin: 10px;
+}
+
+button {
+  padding: 20px 40px;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: rgba(214, 250, 247, 0.993);
+}
+
+button:active {
+  background-color: rgba(155, 255, 247, 0.993);
+  box-shadow: 0 5px rgba(116, 145, 142, 0.993);
+  transform: translateY(8px);
+}
+
+.searchResults {
+  font-family: 'Qucksand';
+  /* display: inline-block; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-left: 32%;
+  margin-top: 25px;
+  scroll-behavior: auto;
+  /* Added for scrolling */
+  display: inline-block;
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: 30vmin;
+}
+
+span {
+  padding: 20px 40px;
+  display: flex;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Quicksand';
+  margin: 2px;
+  border: 1px solid #ddd;
+}
+
+span:hover {
+  background-color: rgba(214, 250, 247, 0.993);
+  border: 2px solid #ddd;
+  color: rgb(0, 134, 211);
+}
+
+span:active {
+  background-color: rgba(155, 255, 247, 0.993);
+  box-shadow: 0 5px rgba(116, 145, 142, 0.993);
+  transform: translateY(8px); 
+}
+
+.starvingButton {
+  font-family: 'Quicksand';
+  position: absolute;
+  top: -100;
+  left: 0;
+  margin: 10px;
+  margin-left: 38.5%;
+  padding: 15px 80px;
+}
+
+/* .starvingButton:hover::before {
+  content: "Cheap eats!";
+} */
+
+.cancelButton {
+  font-family: 'Quicksand';
+  position: absolute;
+  top: -100;
+  right: 0;
+  margin: 10px;
+  margin-top: 25px;
+  margin-right: 35%;
+  padding: 15px 80px;
+  width: 350px;
+}
+
+.firstDateButton {
+  font-family: 'Quicksand';
+  position: absolute;
+  top: -100;
+  right: 0;
+  margin: 10px;
+  margin-right: 38.5%;
+  padding: 15px 80px;
+  width: 350px;
+}
+
+/* .firstDateButton:hover::before {
+  content: "Fancy places!";
+} */
+
+.searchButton {
+  font-family: 'Quicksand';
+  position: absolute;
+  margin-top: -2.35%;
+  margin-left: 64.5%;
+  padding: 10px 30px;
+  /* background-color: rgb(166, 224, 255); */
+  color: rgb(143, 105, 0);
+  font-family: 'Quicksand';
+  font-weight: 900;
+  font-size: 25px;
+  border-radius: 20px;
+  border: none;
+
+}
+
+.searchButton:active {
+  background-color: rgba(155, 255, 247, 0.993);
+  box-shadow: 0 2px rgba(116, 145, 142, 0.993);
+  transform: translateY(2px);
+}
+
+.thirstyButton {
+  font-family: 'Quicksand';
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 200px;
+}
+
+.darkModeButton {
+  font-family: 'Quicksand';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 200px;
+}
+
+.loginExpansionButton {
+  font-family: 'Quicksand';
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 200px;
+}
+
+.gameButton {
+  font-family: 'Quicksand';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 200px;
+}
